@@ -31,7 +31,7 @@ export default function FooterSection() {
           </Link>
 
           <Link
-            href="https://twitter.com/catmeow"
+            href="https://x.com/Atharva9503"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Twitter"
