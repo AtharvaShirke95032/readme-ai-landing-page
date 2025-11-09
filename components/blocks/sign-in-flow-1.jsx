@@ -519,12 +519,12 @@ export const SignInPage = ({
       {/* Box 1 */}
       <div className="bg-neutral-900/60 p-5 sm:p-6 rounded-2xl">
         <p className="text-base sm:text-lg text-gray-400/80 mb-6">
-          Use --api-key flag:
+          DIRECT USE:
         </p>
         <Snippet
           height="auto"
           width="100%"
-          text="npx @catmeow/readme-ai --api-key your api key"
+          text="npx @catmeow/readme-ai"
           dark
         />
       </div>
@@ -532,12 +532,13 @@ export const SignInPage = ({
       {/* Box 2 */}
       <div className="bg-neutral-900/60 p-5 sm:p-6 rounded-2xl">
         <p className="text-base sm:text-lg text-gray-400/80 mb-6">
-          Set GEMINI_API_KEY environment variable:
+          INSTALL GLOBALLY:
         </p>
         <Snippet
           height="auto"
           width="100%"
-          text="npx @catmeow/readme-ai"
+          text="npm install -g @catmeow/readme-ai
+"
           dark
         />
       </div>
